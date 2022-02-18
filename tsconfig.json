@@ -6,7 +6,7 @@
         "target": "esnext",
         "moduleResolution": "node",
         "alwaysStrict": true,
-        "outDir": "./patch-lib",
+        "outDir": "./lib",
         "declaration": true,
         "preserveSymlinks": true,
         "preserveWatchOutput": true,
