@@ -68,4 +68,4 @@ See [LICENSE](LICENSE) and [LICENSE-APACHE](LICENSE-APACHE) for details.#
 
 ### /lib
 
-babel --no-babelrc ./lib --out-dir ./lib --presets=@babel/preset-env
+babel ./lib --out-dir ./lib --minify
