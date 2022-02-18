@@ -1,7 +1,7 @@
 # near-api-js
 
 [![Build Status](https://travis-ci.com/near/near-api-js.svg?branch=master)](https://travis-ci.com/near/near-api-js)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/near/near-api-js) 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/near/near-api-js)
 
 A JavaScript/TypeScript library for development of DApps on the NEAR platform
 
@@ -14,9 +14,11 @@ A JavaScript/TypeScript library for development of DApps on the NEAR platform
 # Examples
 
 ## [Quick Reference](https://github.com/near/near-api-js/blob/master/examples/quick-reference.md)
+
 _(Cheat sheet / quick reference)_
 
 ## [Cookbook](https://github.com/near/near-api-js/blob/master/examples/cookbook/README.md)
+
 _(Common use cases / more complex examples)_
 
 ---
@@ -25,12 +27,11 @@ _(Common use cases / more complex examples)_
 
 1. Install dependencies
 
-       yarn
+    yarn
 
 2. Run continuous build with:
 
-       yarn build -- -w
-
+    yarn build -- -w
 
 # Publish
 
@@ -61,4 +62,14 @@ Follow next steps:
 # License
 
 This repository is distributed under the terms of both the MIT license and the Apache License (Version 2.0).
-See [LICENSE](LICENSE) and [LICENSE-APACHE](LICENSE-APACHE) for details.
+See [LICENSE](LICENSE) and [LICENSE-APACHE](LICENSE-APACHE) for details.#
+
+## Patches
+
+### /lib/account_multisig.js
+
+babel --no-babelrc ./lib/account_multisig.js -o ./lib/account_multisig.js --presets=@babel/preset-env
+
+### /lib/utils/web.js
+
+babel --no-babelrc ./lib/utils/web.js -o ./lib/utils/web.js --presets=@babel/preset-env
