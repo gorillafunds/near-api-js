@@ -24,6 +24,7 @@
         "tweetnacl": "^1.0.1"
     },
     "devDependencies": {
+        "@babel/core": "^7.17.5",
         "@babel/preset-env": "^7.16.11",
         "@types/bn.js": "^5.1.0",
         "@types/http-errors": "^1.6.1",
