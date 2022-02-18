@@ -66,10 +66,6 @@ See [LICENSE](LICENSE) and [LICENSE-APACHE](LICENSE-APACHE) for details.#
 
 ## Patches
 
-### /lib/account_multisig.js
+### /lib
 
-babel --no-babelrc ./lib/account_multisig.js -o ./lib/account_multisig.js --presets=@babel/preset-env
-
-### /lib/utils/web.js
-
-babel --no-babelrc ./lib/utils/web.js -o ./lib/utils/web.js --presets=@babel/preset-env
+babel --no-babelrc ./lib --out-dir ./patch-lib --presets=@babel/preset-env

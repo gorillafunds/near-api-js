@@ -7,9 +7,9 @@
         "url": "git+https://github.com/near/near-api-js.git"
     },
     "homepage": "https://github.com/near/near-api-js",
-    "main": "lib/index.js",
-    "browser": "lib/browser-index.js",
-    "types": "lib/index.d.ts",
+    "main": "patch-lib/index.js",
+    "browser": "patch-lib/browser-index.js",
+    "types": "patch-lib/index.d.ts",
     "dependencies": {
         "bn.js": "5.2.0",
         "borsh": "^0.7.0",
@@ -77,6 +77,7 @@
     "files": [
         "lib",
         "dist",
+        "patch-lib",
         "browser-exports.js"
     ],
     "author": "NEAR Inc"
